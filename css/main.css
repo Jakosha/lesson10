@@ -329,3 +329,42 @@ h6, .h6 {
         margin-left: 48px;
     }
 }
+/*BLOCKS*/
+
+.blocks__wrapper {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 80px;
+    margin-top: 70px;
+}
+
+.block {
+    padding: 40px 0px 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block__text {
+    z-index: 2;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+.block__number{
+    position: relative;
+    z-index: 1;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 280px;
+    line-height: 280px;
+    text-align:end;
+
+    /* basic_grey */
+
+    color: #F2F2F2;
+}
