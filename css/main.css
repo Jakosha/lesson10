@@ -862,10 +862,67 @@ h6, .h6 {
     }
     .header__logo_mobile {
         display: block;
+        height: auto;
     }
-
     .wrapper {
         width: 280px;
     }
+    .header{
+        margin-top: 0px;             
+    }
+   .first_offset {
+        background-color: #68B738;
+        margin-top: 0px; 
+   }
+   .first__image {
+        margin-top: 0px;
+   }
+   .first:before {
+        display: none;
+   }
+   .first:after{
+        display: none;
+   }
+    .header__logotype {
+        font-size: 18px;
+    }
+    .header__link {
+        display: none;
+    }
+    .header .mobile_menu {
+        display: grid;
+        width: 30px;
+        height: 18px;        
+        align-items: center;
+        position: absolute;
+        top: 20px;
+        right: 18px;
+    }
+    .header .mobile_menu .line {        
+        height: 2px;
+        background-color: #000;
+    }
+    .first__wrapper{
+        align-items: start;
+        padding-top: 27px;
 }
-
+    .first__description {
+        padding: 0px 30px;
+    }
+    .first__image{
+        display: none;
+    }
+    .h1 {
+        font-size: 36px;
+        line-height: 36px;
+        color: #FFF;
+        text-align: center;
+    }
+    .first__text {
+        font-size: 14px;
+        margin-top: 25px;
+        text-transform: uppercase;
+        color: #FFF;
+        text-align: center;
+    }
+}
